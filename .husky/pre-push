@@ -1,5 +1,5 @@
 #!/bin/bash
-protected_branches=("master" "develop" "production")
+protected_branches=("main" "master" "develop" "production")
 
 current_branch=$(git symbolic-ref --short HEAD)
 
